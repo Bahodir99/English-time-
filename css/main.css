@@ -133,7 +133,7 @@ button:active {
 }
 
 .modal__open {
-  transform: translateY(-800px);
+  transform: translateY(-650px);
 }
 
 .error {
