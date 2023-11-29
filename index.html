@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    
+    <section class="register">
+        <div class="container register__wrapper">
+            <h1 class="register__title">Royxatdan O'tish</h1>
+            <div class="register__inner">
+                <ul>
+                    <li>
+                        <input class="name inp"  type="text" placeholder="Ismingiz">
+                    </li>
+                    <li>
+                        <input class="number inp" type="text" placeholder="Telefon raqamingiz">
+                        
+                    </li>
+                    <li>
+                        <input type="date" class="date  inp2">
+                    </li>
+                </ul>
+                <span>
+                    <label for="male">
+                        <input type="radio" id="male" name="sex">Erkak
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="sex">Ayol
+                    </label>
+                </span>
+                <div class="courses">
+                    <select class="select">
+                        <option value="Tanlang">Tanlang</option>
+                        <option value="Matematika+">
+                            <p>Matematika va Prezident  <br> maktabiga tayyorlov</p>
+                        </option>
+                        <option value="Matematika">
+                            Matematika (Boshlang`ich)
+                        </option>
+                        <option value="Ingliz tili">
+                            Ingliz tili
+                        </option>
+                        <option value="Rus tili">
+                            Rus tili
+                        </option>
+                        <option value="Koreys tili">
+                            Koreys tili
+                        </option>
+                        <option value="Dasturlash">
+                            Dastulash
+                        </option>
+                        <option value="Kompyuter">
+                            Kompyuter Savodxonligi
+                        </option>
+                    </select>
+                </div>
+                <button class="register__btn">Ro'yxatdan O'tish</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <div class="error">
+            <h2>Siz Xato kiritdingiz qayta urinib koring!</h2>
+        </div>
+    </div>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
